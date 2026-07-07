@@ -12,6 +12,7 @@ The toolkit is organized into specialized modules to make navigation and deploym
   - `Resolve-BulkDnsLookups.ps1` — Fast, native PowerShell Resolve-DnsName utility to parse domain lists.
   - `Resolve-BatchDnsDetails.ps1` — Comprehensive legacy nslookup parser that tracks targeting servers with built-in request delays.
 - **DistributionLists/** — On-premises and cloud distribution group auditing.
+  - `Import-BulkDLGroupMembers.ps1` — Automates bulk CSV uploads to provision or expand enterprise distribution lists.
 - **LegalHold/** — Corporate compliance and mailbox preservation management.
   - `Manage-LegalHoldMailboxCleanup.ps1` — Toggles single-item recovery and delay hold states to run safe, iterative dumpster purging on targeted accounts.
 - **MailboxOptimization/** — Automated mailbox maintenance and storage quota governance.
